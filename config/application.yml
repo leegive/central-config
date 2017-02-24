@@ -14,3 +14,9 @@ eureka:
         serviceUrl:
             defaultZone: http://admin:${jhipster.registry.password}@jhipster-registry:8761/eureka/
 
+zuul:
+    routes:
+        greiapi:
+            path: /greiapi/**
+            url: http://greiapi:8080/
+
