@@ -18,5 +18,5 @@ zuul:
     routes:
         greiapi:
             path: /greiapi/**
-            url: http://greiapi:8080/v1/common/
+            url: http://greiapi:8080/
 
